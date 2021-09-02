@@ -33,6 +33,33 @@ def main():
          print("a is equal to b")
          
         
-    
+#Loop
+#While
+#Simple fibonacci serise
+
+    a = 0
+    b = 1
+    while b<100:
+        print(b, end=" ")
+        a,b=b,a+b
+        
+#For 
+    for i in range(1,100):
+        print(i, end=" ")
+
+#continue and break statements
+#continue
+
+    s="this is string"
+    for i in s:
+         if i == 's':
+             continue
+         print(i, end="")
+ #break        
+    s="this is string"
+    for i in s:
+         if i == 's':
+             break
+         print(i, end="")     
 if __name__ == "__main__": main()    
     
