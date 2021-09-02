@@ -1,4 +1,4 @@
-#variable
+"""#variable
 def main():
     a=10
     b=2.4
@@ -61,5 +61,36 @@ def main():
          if i == 's':
              break
          print(i, end="")     
-if __name__ == "__main__": main()    
+if __name__ == "__main__": main()   """
+
+
+#Regex
+
+import re
+
+def Regex():
+    file = open('regex.txt')
+    for i in file:
+        match = re.search('\w{7}',i)
+        if match:
+            print(match.group())
+if __name__ == "__main__": Regex()
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
     
