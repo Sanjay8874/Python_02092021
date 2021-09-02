@@ -1,4 +1,4 @@
-"""#variable
+#variable
 def main():
     a=10
     b=2.4
@@ -39,12 +39,13 @@ def main():
 
     a = 0
     b = 1
-    while b<100:
+    while b<10:
         print(b, end=" ")
         a,b=b,a+b
         
 #For 
-    for i in range(1,100):
+    print("\n")
+    for i in range(1,10):
         print(i, end=" ")
 
 #continue and break statements
@@ -61,19 +62,20 @@ def main():
          if i == 's':
              break
          print(i, end="")     
-if __name__ == "__main__": main()   """
+if __name__ == "__main__": main()
 
 
-#Regex
+#Regex-Extract some perticular word or sentance from 
 
 import re
-
+print("\n")
 def Regex():
     file = open('regex.txt')
     for i in file:
         match = re.search('\w{7}',i)
         if match:
             print(match.group())
+            
 if __name__ == "__main__": Regex()
 
 
