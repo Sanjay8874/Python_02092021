@@ -24,12 +24,12 @@ def main():
     
 #conditional
 
-     a,b =4,5
-     if a>b:
+    a,b =4,5
+    if a>b:
          print("a is greater than b")
-     elif a<b:
+    elif a<b:
          print("a is less than b or b is grater than a")
-     else:
+    else:
          print("a is equal to b")
          
         
