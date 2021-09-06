@@ -78,18 +78,37 @@ def Regex():
             
 if __name__ == "__main__": Regex()
 
-
-
-
 #Function
 
 def add(a,b):
     c = a+b
     print(c)
     
-add(3,7)    
+def deff(a,b):
+    c = a-b
+    print(c)
+    if c>0:
+        print("positive values")
+    elif c == 0:
+        print("Zero")
+    else:
+        print("Negative values")
+  
+def division(a,b):
+    c = a/b
+    print(c)
 
-
+def Mult(a,b):
+    c = a*b
+    print(c)
+               
+        
+add(5, 5)
+deff(5,5)
+division(10,5)
+Mult(5,5)        
+        
+        
 
 
 
