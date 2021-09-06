@@ -81,6 +81,17 @@ if __name__ == "__main__": Regex()
 
 
 
+#Function
+
+def add(a,b):
+    c = a+b
+    print(c)
+    
+add(3,7)    
+
+
+
+
 
 
 
