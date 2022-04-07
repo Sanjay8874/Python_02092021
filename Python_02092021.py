@@ -105,10 +105,19 @@ def Mult(a,b):
 add(5, 5)
 deff(5,5)
 division(10,5)
-Mult(5,5)        
-        
+Mult(5,5)
 
-###
+
+#greater no
+
+
+def max(a,b):
+    if a>b:
+        print("a is grater then b")
+    else:
+        print("b is grater then a")
+        
+max(10,11)        
 
 
 
