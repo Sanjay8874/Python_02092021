@@ -119,6 +119,15 @@ def max(a,b):
         
 max(10,11)        
 
+#list
+
+<<<<<<< HEAD
+List = [1,2,4,5,6,7,8,9,45,"sanjay"]
+=======
+List = [1,2,4,5,6,7,8,9,45,sanjay]
+>>>>>>> main
+print(List)
+
 
 
 
